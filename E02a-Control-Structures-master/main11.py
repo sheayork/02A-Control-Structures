@@ -40,3 +40,9 @@ while (play_again != 'n' and play_again != 'no'):
     play_again = input("\nWould you like to play again (yes or no)? ").lower().strip()
 
 print('Thanks for playing!')
+
+##BEFORE: This is basically the same as the last, expect approaching it at a different method. Rather than
+##          do a bunch of code outside of the loops and such, the programmer does a section of code
+##          right before the actual game. 
+
+##AFTER: Correct. Again, I would have printed the list.

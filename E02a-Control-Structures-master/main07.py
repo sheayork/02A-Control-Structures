@@ -13,3 +13,10 @@ elif (color == 'pink'):
     print('Close!')
 else:
     print('Sorry, try again.')
+
+##BEFORE: The program changes the answer before the if/else method instead of during, making the code a little
+##          bit easier to follow. Additionally, there's elif, which gives the program an alternative answer
+##          to look at and determine how it will respond to the user. Typically I just use if's, no matter
+##          how many, and then end with an else. 
+
+##AFTER: Correct

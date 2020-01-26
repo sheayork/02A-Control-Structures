@@ -19,3 +19,7 @@ while (color != 'red'):
         print('Sorry, try again.')
 
 print('You guessed it in {} tries!'.format(count))
+
+##BEFORE: Same as before, but this keeps track of how many times it took for the user to guess the right color.
+
+##AFTER: Correct.
