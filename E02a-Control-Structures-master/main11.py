@@ -46,3 +46,7 @@ print('Thanks for playing!')
 ##          right before the actual game. 
 
 ##AFTER: Correct. Again, I would have printed the list.
+
+##LINES 6 - 11: It's a different method for the program to choose a color at random from the list given,
+##              making it easier to follow and track down where it's at. Additionally, if something
+##              goes wrong, the user can go to that code and see if that's the issue.
