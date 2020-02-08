@@ -19,3 +19,37 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+ANSWERS
+1.) BEFORE: I Expect this to just print "Greetings" as a string, then for the user to guess the color yet not get a response back
+    AFTER: It did just as I thought it would. I assume the program did know you are answering a question, but since there is no actual piece of code that has the answer nor does it have an if/else statement, it just accepted anything and ended the program. 
+
+2.) BEFORE: Just as before, but only it will print out whatever color name, or just anything in general, that is typed in. After repeating after the user, the program will end.
+    AFTER: Correct. Since the programmer said, "Okay, whatever the user says, I want you to repeat," the program actually did something rather than end so quickly. 
+
+3.) BEFORE: This time, it has an actual answer. If the person gets it exactly right, they're correct. Else, it ends. There is no 'while True' function so the user has to reload this over and over again. Additionally, if the user says 'red' or 'RED' - just anything other than 'Red,' the program will assume it isn't right.
+    AFTER: Correct. Python doesn't exactly know if 'red' or 'RED' is an answer because it isn't specified by the programmer. 
+
+4.) BEFORE: Same as before, but this time they accept 'red' as an answer as well. If the user puts any of the two different ways to 'say' red, they're correct; anything else doesn't work.
+    AFTER: Correct.
+
+5.) BEFORE: .lower means lowercase, I'm assuming, so if the user puts any kind of 'red' answer ('Red,' 'RED,' etc.), the program will lowercase every letter for the person's answer. This makes it easier to ensure that the program can accept any form of red. 
+    AFTER: Correct.
+
+6.) BEFORE: Same as before, but some people may put spaces in-between letter or right after typing something (I know I have a bad habit of doing the latter when it comes to typing papers). So basically the program will remove those spaces and change everything to lowercase letters to tell if the answer is right or not. 
+    AFTER:  It didn't do it for spaces in-between letters, but otherwise I was correct. 
+
+7.) BEFORE: The program changes the answer before the if/else method instead of during, making the code a little bit easier to follow. Additionally, there's elif, which gives the program an alternative answer to look at and determine how it will respond to the user. Typically I just use if's, no matter how many, and then end with an else. 
+    AFTER: Correct
+
+8.) BEFORE: This puts the question inside of the while loop instead, and while the answer is not red, the program will continue to ask the person the question until they get it right. I'm not sure if it will end since there is no break, so it may keep asking even after they get the answer right. 
+    AFTER: It did end, but otherwise I was correct. I guess the 'while' statement did kind of count as a break.
+
+9.) BEFORE: Same as before, but this keeps track of how many times it took for the user to guess the right color.
+    AFTER: Correct.
+
+10.) (work is done on actual file, as said on directions)
+
+11.) BEFORE: This is basically the same as the last, expect approaching it at a different method. Rather than do a bunch of code outside of the loops and such, the programmer does a section of code right before the actual game. 
+    AFTER: Correct. Again, I would have printed the list.
+    LINES 6 - 11: It's a different method for the program to choose a color at random from the list given, making it easier to follow and track down where it's at. Additionally, if something goes wrong, the user can go to that code and see if that's the issue.
